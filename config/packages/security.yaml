@@ -38,6 +38,8 @@ security:
             - ROLE_USER
             - ROLE_LOCATION_WRITE
             - ROLE_MEASUREMENT_WRITE
+            - ROLE_WEATHER
+        
         ROLE_USER:
             - ROLE_LOCATION_READ
             - ROLE_MEASUREMENT_READ
@@ -59,6 +61,9 @@ security:
             - ROLE_MEASUREMENT_NEW
             - ROLE_MEASUREMENT_EDIT
             - ROLE_MEASUREMENT_DELETE
+
+        ROLE_WEATHER:
+            - ROLE_WEATHER_CITY
 
 when@test:
     security:
